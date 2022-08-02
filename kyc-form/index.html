@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyc Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+    <style>
+        /* common css */
+        /* test css class ends */
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class=" header">
+            <h2>মার্চেন্ট একাউন্ট খোলার আবেদন ও কেওয়াইসি ফর্ম</h2>
+            <h2>(Merchant Opening Application & KYC Form)</h2>
+        </div>
+        <div class=" subheader">
+            <h3>
+                <span>'দেশী' কর্তৃক পূরণীয় </span><span>('Deshi' use only)</span>
+            </h3>
+        </div>
+        <div>
+            <form>
+                <div class="">
+                    <div class="left  account-type-title">
+                        <p>মার্চেন্ট একাউন্টের ধরণঃ</p>
+                        <p>(Merchant Account Type)</p>
+                    </div>
+
+                    <div class="left  account-types">
+                        <div class="left  two-account-types">
+                            <div>
+                                <input type="checkbox">
+                                <label for="account-type">সরকারি (Govt.) </label>
+                            </div>
+    
+                            <div>
+                                <input type="checkbox">
+                                <label for="account-type">কর্পোরেট (Corporate) </label>
+                            </div>
+                        </div>
+    
+    
+                        <div class="left  two-account-types">
+                            <div>
+                                <input type="checkbox">
+                                <label for="account-type">ই-কমার্স (E-commerce) </label>
+                            </div>
+    
+                            <div>
+                                <input type="checkbox">
+                                <label for="account-type">এফ-কমার্স (F-Commerce) </label>
+                            </div>
+    
+                        </div>
+    
+    
+                        <div class="left  two-account-types">
+                            <div>
+                                <input type="checkbox">
+                                <label for="account-type">শিক্ষা প্রতিষ্ঠান (Education) </label>
+                            </div>
+    
+                            <div>
+                                <input type="checkbox">
+                                <label for="account-type">মাইক্রো (Micro) </label>
+                            </div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    
+
+                    <div class="clr"></div>
+                </div>
+
+                <div class="border1">
+                    <div class="left  account-id-title">
+                        <p>মার্চেন্ট আইডিঃ</p>
+                        <p>(Merchant Id)</p>
+                    </div>
+                    <div class="right  account-id-input">
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        -
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        -
+
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        -
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+                        <input class="acc-id-each-input" type="text" maxlength="1"/>
+
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div class="">
+                    <div class="left acc-mobile-title">
+                        <p>একাউন্টে সংযুক্ত মোবাইল নাম্বারঃ</p>
+                        <p>(Mobile Number Asstd. with Account)</p>
+                    </div>
+                    <div class="right acc-mobile-input">
+                        <input class="mobile-number" type="text" maxlength="1" value="0">
+                        <input class="mobile-number" type="text" maxlength="1" value="1">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        -
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        -
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+                        <input class="mobile-number" type="text" maxlength="1" value="">
+
+
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div class="">
+                    <div class=" left">
+                        <p>নিষ্পত্তির ধরণঃ </p>
+                        <p>(Settlement Type)</p>
+                    </div>
+
+                    <div class="right">
+                        <div class=" left">
+                            <input type="checkbox" />
+                            <label class="">
+                                <p>অটো নিষ্পত্তি </p>
+                                <p>(Auto Settlement)</p>
+                            </label>
+                        </div>
+
+                        <div class=" left">
+                            <input type="checkbox" />
+                            <label>
+                                <p>উত্তোলনের অনুরোধঃ</p>
+                                <p>(Withdraw Request)</p>
+                            </label>
+                        </div>
+
+                        <div class="left ">
+                            <label>
+                                <p>নিষ্পত্তির চার্জঃ</p>
+                                <p>Settlement Charage</p>
+                            </label>
+                            <input type="text">
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="clr"></div>
+
+                </div>
+
+                <div class="">
+                    <div class="left">
+                        <span>1.</span>
+                        <p>মার্চেন্ট একাউন্টের নামঃ</p>
+                        <p>(Merchant Account Name)</p>
+                    </div>
+
+                    <div class="right">
+                        <input type="text" />
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div>
+                    <div class="left">
+                        <span>2.</span>
+                        <p>ব্যবসায়িক নামঃ</p>
+                        <p>[DBA (Doing Business as)Name]</p>
+                    </div>
+                    <div class="right">
+                        <input type="text" />
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+
+                <div>
+                    <div class="left">
+                        <span>3.</span>
+                        <p>প্রতিষ্ঠানের ধরনঃ</p>
+                        <p>(Type of Organization)</p>
+                    </div>
+
+                    <div class="right">
+                        <div class="left">
+                            <input type="checkbox" />
+                            <p>ব্যক্তি মালিকানাধীন</p>
+                            <p>(Proprietorship)</p>
+                        </div>
+
+
+                        <div class="left">
+                            <input type="checkbox" />
+                            <p>অংশীদারি </p>
+
+                            <p>(Partnership)</p>
+                        </div>
+
+                        <div class="left">
+
+                            <input type="checkbox" />
+                            <p>লিমিটেড কোম্পানি</p>
+
+                            <p>(Limited Company)</p>
+                        </div>
+
+
+                        <div class="left">
+                            <input type="checkbox" />
+                            <p>অন্যান্য</p>
+                            <p>(Others)</p>
+                            <input type="text" />
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div class="">
+                    <div class="left">
+                        <span>4.</span>
+                        <p>প্রতিষ্ঠানের ঠিকানা</p>
+                        <p>(Organization's Address)</p>
+                    </div>
+
+                    <div class="right">
+                        <div class="">
+                            <div class="left">ক.</div>
+                            <div class="left">
+
+                                <p>নিবন্ধিত ঠিকানাঃ</p>
+                                <p>(As per Trade Licence)</p>
+                            </div>
+                            <div class="left">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+                        <div class="">
+                            <div class="left">
+                                <div class="left">
+                                    <p>গ্রাম/এলাকাঃ</p>
+                                    <p>(village/Area)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>থানা/উপজেলা</p>
+                                    <p>(Thana/Upazilla)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>জেলা/শহর</p>
+                                    <p>(District/City)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="clr"></div>
+                        </div>
+
+                        <div class="">
+                            <div class="left">
+                                <div class="left">
+                                    <p>বিভাগ</p>
+                                    <p>(Division)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>পোস্ট অফিসঃ</p>
+                                    <p>(Post Office)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>পোস্ট কোডঃ</p>
+                                    <p>(Post Code)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="clr"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="right">
+                        <div class="">
+                            <div class="left">ক.</div>
+                            <div class="left">
+
+                                <p>নিবন্ধিত ঠিকানাঃ</p>
+                                <p>(As per Trade Licence)</p>
+                            </div>
+                            <div class="left">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+                        <div class="">
+                            <div class="left">
+                                <div class="left">
+                                    <p>গ্রাম/এলাকাঃ</p>
+                                    <p>(village/Area)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>থানা/উপজেলা</p>
+                                    <p>(Thana/Upazilla)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>জেলা/শহর</p>
+                                    <p>(District/City)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="clr"></div>
+                        </div>
+
+                        <div class="">
+                            <div class="left">
+                                <div class="left">
+                                    <p>বিভাগ</p>
+                                    <p>(Division)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>পোস্ট অফিসঃ</p>
+                                    <p>(Post Office)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="left">
+                                <div class="left">
+                                    <p>পোস্ট কোডঃ</p>
+                                    <p>(Post Code)</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+
+                            <div class="clr"></div>
+                        </div>
+                    </div> -->
+                    <div class="clr"></div>
+                </div>
+
+                <div>
+                    <div class="left">
+                        <div class="left">
+                            <span>৫.</span>
+                            <p>ব্যবসায়িক মোবাইল নাম্বারঃ </p>
+                            <p>Business Mobile Number)</p>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+
+                    <div class="left">
+                        <div class="left">
+                            <span>৬.</span>
+                            <p>ই-মেইলঃ</p>
+                            <p>(Email)</p>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div>
+                    <div class="left">
+                        <div class="left">
+                            <span>৭.</span>
+                            <p>ট্রেড লাইসেন্স নাম্বারঃ </p>
+                            <p>(Trade Licence Number)</p>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+
+                    <div class="left">
+                        <div class="left">
+                            <span>৮.</span>
+                            <p>টিন নাম্বার(যদি থাকে) </p>
+                            <p>[Tin Number (If any)]</p>
+                        </div>
+                        <div class="right">
+                            <input type="text">
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+
+                <div>
+                    <div class="left">
+                        <span>৯।</span>
+                        <p>ভ্যাট রেজিস্ট্রেশন নাম্বার (যদি থাকে) ঃ</p>
+                        <p>[Vat Registration Number (If any)]</p>
+                    </div>
+
+
+                    <div class="left">
+                        <input type="text">
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div class="">
+                    <div class=" left">
+                        <span>১০.</span>
+                        <p>মার্চেন্ট ব্যবসার শ্রেণীঃ</p>
+                        <p>(Merchant Business Category)</p>
+                    </div>
+
+                    <div class="right">
+                        <div>
+                            <div class=" left">
+                                <input type="checkbox" />
+                                <label class="">
+                                    <p>খুচরা ব্যবসা </p>
+                                    <p>(Retails Trade)</p>
+                                </label>
+                            </div>
+
+                            <div class=" left">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>লাইফস্টাইলঃ
+                                    </p>
+                                    <p>(Lifestyle)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>ইলেক্ট্রনিক্স ও গৃহস্থালির পণ্য</p>
+                                    <p>(Electornics & Household)</p>
+                                </label>
+
+                            </div>
+
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>পাইকারি</p>
+                                    <p>(Wholesale)</p>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>ভ্রমণঃ</p>
+                                    <p>(Tours & Travel)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>রেস্টুরেন্ট ও ক্যাফে</p>
+                                    <p>(Restaurant & Cafe)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>উৎপাদকঃ
+                                    </p>
+                                    <p>(Manufacturing)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>ডিজিটাল সেবা</p>
+                                    <p>(Digital Service)</p>
+                                </label>
+                            </div>
+
+
+                        </div>
+
+                        <div>
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>পরিবহন ও যানবাহন</p>
+                                    <p>(Transport & Vehicle)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>উপযোগ</p>
+                                    <p>(Utility)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>বিলিং</p>
+                                    <p>(Billing)</p>
+                                </label>
+                            </div>
+
+                            <div class="left ">
+                                <input type="checkbox" />
+                                <label>
+                                    <p>অন্যান্য</p>
+                                    <p>(Others)</p>
+                                </label>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="clr"></div>
+                    </div>
+                    <div class="clr"></div>
+
+                </div>
+
+                <div>
+                    <div class="left">
+                        <span>10.</span>
+                        <p>Bank Account Information</p>
+                    </div>
+
+                    <div class="right">
+                        <div>
+                            <div class="left">
+                                <p>Bank Name</p>
+                            </div>
+                            <div class="right">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+
+                        <div>
+                            <div class="left">
+                                <p>Bank Account Name</p>
+                            </div>
+                            <div class="right">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+                        <div>
+                            <div class="left">
+                                <p>Bank Account Number</p>
+                            </div>
+                            <div class="right">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+                        <div>
+                            <div class="left">
+                                <div class="left">
+                                    <p>Routing Number</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+                            <div class="right">
+                                <div class="left">
+                                    <p>Branch Name</p>
+                                </div>
+                                <div class="right">
+                                    <input type="text">
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+
+                    </div>
+                    <div class="clr"></div>
+                </div>
+
+                <div>
+                    <p>I hereby declare that the information I have given here is correct and complete to the best of my knowledge. The documents submitted along with this form are genuine. I shall be legally
+                    liable if I am found to have provided any false document or information.</p>
+
+                    <div>
+                        <div class="left">
+                            <div class="left">
+                                <p>Applicant's Name</p>
+                            </div>
+                            <div class="right">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="right">
+                            <div class="left">
+                                <p>Applicant's Signature & Date</p>
+                            </div>
+                            <div class="right">
+                                <input type="text">
+                            </div>
+                            <div class="clr"></div>
+                        </div>
+                        <div class="clr"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div style="height: 800px;"></div>
+
+    <script>
+            $(".acc-id-each-input").keyup(function () {
+            if (this.value.length == this.maxLength) {
+              var $next = $(this).next('.acc-id-each-input');
+              if ($next.length)
+                  $(this).next('.acc-id-each-input').focus();
+              else
+                  $(this).blur();
+            }
+        });
+    </script>
+
+        
+    <script>
+        
+        $(".mobile-number").keyup(function () {
+            if (this.value.length == this.maxLength) {
+              var $next = $(this).next('.mobile-number');
+              if ($next.length)
+                  $(this).next('.mobile-number').focus();
+              else
+                  $(this).blur();
+            }
+        });
+    </script>
+      
+
+</body>
+
+</html>
