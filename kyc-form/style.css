@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
+input{
+    height: 2em;
+}
+
 .container {
     background-color: #f5f5f5;
-    border: 2px solid lime;
+    /* border: 2px solid lime; */
     margin-left:10%;
     margin-right:10%;
     padding-left:2%;
     padding-right:2%;
+
 }
 
 /*common css ends */
@@ -63,7 +68,11 @@
     border: 0.5px solid #f0f2f5;
     padding-left:5px;
 }
-
+.mobile-section{
+    padding-top:10px;
+    padding-bottom:10px;
+    
+}
 .acc-mobile-title{
     width:25%;
 }
@@ -78,6 +87,82 @@
     padding-left:5px;
 }
 
+.settlement-type-title{
+    width:25%;
+}
+.settlement-types{
+    margin-left: 10px;
+    width:72%;
+}
+.settlement-type-input {
+    display: inline-block;
+}
+.settlement-each-type {
+    position: relative;
+    bottom: 32px;;
+    left:25px;
+}
+.settlement-type{
+    margin-right: 60px;
+}
+
+
+.common-title{
+    width:25%;
+}
+
+.common-input{
+    width: 75%;
+    position: relative;
+    top:10px;
+}
+
+.common-input input{
+    width: 100%;
+    border:0.5px solid #f0f2f5;
+    margin-left:10px;
+}
+
+.common-tittle-name{
+    position: relative;
+    bottom: 25px;
+    left: 15px;
+}
+
+.orgs{
+    padding-top:10px;
+
+}
+.org-type{
+    width:25%;
+}
+
+.org-type-title{
+    position: relative;
+    bottom:24px;
+    left:18px;   
+}
+.org-types{
+    margin-left:10px;
+}
+.org-each-type{
+    position: relative;
+    bottom:24px;
+    left:18px;
+}
+.type-org-type{
+    margin-right:50px;
+}
+
+
+.address-title{
+    position: relative;
+    bottom:24px;
+    left:18px;
+}
+
+.address-input{
+}
 
 .left {
     display: block;
@@ -113,4 +198,11 @@
 }
 .border4{
     border: 3px solid black;
+}
+.border5{
+    border: 3px solid yellow;
+}
+
+.border6{
+    border: 3px solid purple;
 }

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    margin-left:30%;
+}
+.container {
+    width: 595px;
+    height: 842px;
+    border: 1px solid red;
+}
+
+.header-div{
+    background-color: #008b22;
+    width: 286px;
+    margin:0 auto;
+    padding: 4px 8px 3px;
+    border-radius: 2px;
+}
