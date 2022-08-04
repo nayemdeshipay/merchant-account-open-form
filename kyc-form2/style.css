@@ -1,0 +1,217 @@
+/* font-family: 'Baloo Da 2', cursive;
+font-family: 'Inter', sans-serif; */
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+  
+}
+.container{
+    width: 595px;
+    height: 842px;
+    margin: 0 auto;
+}
+.header .p1{
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 700;
+    font-size:14px;
+    line-height: 18px;
+    color:#000;
+    width:547px;
+    height: 18px;
+    text-align: center;
+}
+.header .p2{
+    width: 547px;
+    height: 14px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size:11.5px;
+    line-height: 14px;
+    text-align:center;
+    letter-spacing: -0.02em;
+    color:#4C4F52;
+}
+.header{
+    margin-bottom: 12px;
+}
+.top-section{
+      width:100%; 
+      height: 140px;
+      background-color: #F7F7F8;
+}
+.top-section .title{
+    background-color: #008B22;
+    width: 153px;
+    height: 18px;
+    margin-top: 4px;
+    margin-left: 219px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size:9px;
+    line-height: 11px;
+    font-weight: 600;
+    color: #fff;
+    font-style: normal;
+    padding-top:3px;
+    text-align: center;
+
+}
+
+.account-type{
+    display: flex;
+}
+.acc-type-title, .acc-type-id{
+    width: 129px;
+    height: 8px;
+}
+.account-type-items{
+    display: flex;
+    justify-content:space-between;
+}
+
+.merchant-id{
+    display: flex;
+    justify-content:flex-start;
+
+}
+.merchant-id-input{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    width: 14px;
+    height: 16px;
+    border-radius: 2px;
+}
+
+.set-charge-input{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    width: 80px;
+    height: 18px;
+    border-radius: 2px;
+}
+
+.mobile{
+    display: flex;
+}
+.settlement{
+    display: flex;
+}
+
+
+.biginput{
+    width:410px;
+    height: 18px;
+    background-color: #f0f2f5;
+    border: 0.5px solid #dadadc;
+    border-radius:2px;
+}
+
+.semibiginput{
+    background-color: #f0f2f5;
+    border: 0.5px solid #dadadc;
+    border-radius:2px;
+    width: 321px;
+    height: 18px;
+}
+.checkstyle{
+    width:10px;
+    height: 10px;
+    border-radius: 1.5px;
+    border: 0.5px solid #dadadc;
+}
+.special-margin {
+    margin-right: 10px;
+}
+.sep{
+    margin-right: 4px;
+}
+
+.addr-input-1{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    width: 75px;
+    height: 18px;
+    border-radius: 2px;
+}
+.addr-input-2{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    width: 65px;
+    height: 18px;
+    border-radius: 2px;
+}
+.addr-input-3{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    width: 77px;
+    height: 18px;
+    border-radius: 2px;
+}
+
+.mb-input{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    border-radius: 2px;
+
+
+}
+.other-input{
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    border-radius: 2px;
+
+}
+.info-input-1{
+    width: 97px;
+    height: 18px;
+
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    border-radius: 2px;
+}
+.info-input-2{
+    width: 160px;
+    height: 18px;
+
+    border: 0.5px solid #dadadc;
+    background-color: #f0f2f5;
+    border-radius: 2px;
+}
+.bn{
+    font-size:7px;
+    font-weight: 500;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+.en{
+    font-size:6.5px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+/* utility class */
+.b1{
+    border: 2px solid peru;
+}
+.b2{
+    border: 2px solid darkgreen;
+}
+.b3{
+    border: 2px solid chartreuse;
+}
+.b4{
+    border: 2px solid black;
+}
+.b5{
+    border: 2px solid indigo;
+}
+.b6{
+    border: 2px solid aqua;
+}
+.b7{
+    border: 2px solid hotpink
+}

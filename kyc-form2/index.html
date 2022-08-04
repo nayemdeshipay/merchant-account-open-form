@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyc Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <!-- 
+    font-family: 'Baloo Da 2', cursive;
+    font-family: 'Inter', sans-serif;
+ -->
+</head>
+
+<body>
+    <div class="container b1">
+        <div class="header">
+            <p class="p1">মার্চেন্ট একাউন্ট খোলার আবেদন ও কেওয়াইসি ফর্ম</p>
+            <p class="p2">(Merchant Account Opening Application & KYC Form)</p>
+        </div>
+
+
+        <div class="top-section" style="margin-bottom:5px">
+            <p class="title">
+                'দেশী' কর্তৃক পূরণীয়
+                ('Deshi' use only)
+            </p>
+
+
+            <div class="account-type">
+                <div class="acc-type-tittle">
+                    <p class="bn" style="width:129px; height:8px">মার্চেন্ট একাউন্টের ধরণঃ</p>
+                    <p class="en" style="width:129px; height:7px">(Merchant Account Type)</p>
+                </div>
+
+                <div class="account-type-items" style="width: 307px;">
+                    <div class="">
+                        <div class="" style="height: 13px;">
+                            <input type="checkbox" class="checkstyle">
+                            <span class="bn">সরকারি</span>
+                            <span class="en">(Govt.)</span>
+                        </div>
+
+                        <div class="">
+                            <input type="checkbox" class="checkstyle">
+                            <span class="bn">কর্পোরেট</span>
+                            <span class="en">(Corporate)</span>
+                        </div>
+
+                    </div>
+
+
+                    <div>
+                        <div class="" style="height: 13px">
+                            <input type="checkbox" class="checkstyle">
+                            <span class="bn">ই-কমার্স</span>
+                            <span class="en">(E-commerce)</span>
+                        </div>
+
+                        <div class="">
+                            <input type="checkbox" class="checkstyle">
+                            <span class="bn">এফ-কমার্স </span>
+                            <span class="en">(F-Commerce) </span>
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div class="" style="height: 13px;">
+                            <input type="checkbox" class="checkstyle">
+                            <span class="bn">শিক্ষা প্রতিষ্ঠান</span>
+                            <span class="en">(Education) </span>
+                        </div>
+
+                        <div class="">
+                            <input type="checkbox" class="checkstyle">
+                            <span class="bn">মাইক্রো</span>
+                            <span class="en">(Micro) </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="merchant-id">
+
+                <div class="" style="width:129px;">
+                    <p class="bn" style="width:129px; height:8px">মার্চেন্ট আইডিঃ</p>
+                    <p class="en" style="width:129px; height:7px">(Merchant Id)</p>
+                </div>
+
+                <div class="" style="width: 310px">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    -
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    -
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                </div>
+            </div>
+
+
+            <div class="mobile">
+                <div style="width: 129px; height: 8px">
+                    <p class="bn" style="width:129px; height:8px">একাউন্টে সংযুক্ত মোবাইল নাম্বারঃ</p>
+                    <p class="en" style="width:129px; height:7px">(Mobile Number Asstd. with Account)</p>
+                </div>
+
+                <div class="mobile-items">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    -
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    -
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+                    <input type="text" class="merchant-id-input">
+
+                </div>
+            </div>
+
+
+            <div class="settlement" style="margin-top:10px;">
+                <div style="width: 129px">
+                    <p class="bn" style="width:129px; height:8px">নিষ্পত্তির ধরণঃ</p>
+                    <p class="en" style="width:129px; height:7px">(Settlement Type)</p>
+                </div>
+
+                <div style="display:flex; justify-content: space-between; width:410px" class="">
+
+                    <div style="display:flex; width:26px" class="">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div class="">
+                            <p class="bn">অটো নিষ্পত্তি </p>
+                            <p class="en">(Auto Settlement)</p>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">উত্তোলনের অনুরোধঃ</p>
+                            <p class="en">(Withdraw Request)</p>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;">
+                        <!-- <div>
+                            <input type="checkbox" class="checkstyle">
+                        </div> -->
+                        <div style="margin-right: 5px">
+                            <p class="bn">নিষ্পত্তির চার্জঃ</p>
+                            <p class="en">(Settlement Charage)</p>
+                        </div>
+
+                        <input type="text" class="set-charge-input">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+        <div style="display:flex;margin-bottom: 5px;" class="">
+            <div style="display:flex; width: 129px">
+                <div class="bn special-margin">১.</div>
+                <div>
+                    <p class="bn" b>মার্চেন্ট একাউন্টের নামঃ</p>
+                    <p class="en">(Merchant Account Name)</p>
+                </div>
+
+            </div>
+
+            <div>
+                <input type="text" class="biginput">
+            </div>
+        </div>
+
+
+        <div style="display:flex;" class="">
+            <div style="display:flex; width: 129px">
+                <div class="bn special-margin">২.</div>
+                <div>
+                    <p class="bn" b>ব্যবসায়িক নামঃ</p>
+                    <p class="en">[DBA (Doing Business as)Name]</p>
+                </div>
+
+            </div>
+
+            <div>
+                <input type="text" class="biginput">
+            </div>
+        </div>
+
+
+
+
+        <div class="settlement" style="margin-top:10px;">
+
+            <div style="display: flex; width: 129px;" class="">
+                <div>
+                    <p class="bn special-margin">৩.</p>
+                </div>
+                <div style="width: 129px">
+
+                    <p class="bn" style="width:129px; height:8px">প্রতিষ্ঠানের ধরনঃ</p>
+                    <p class="en" style="width:129px; height:7px">(Type of Organization)</p>
+                </div>
+
+            </div>
+
+            <div style="display:flex; justify-content: space-between; width: 410px" class="">
+
+                <div style="display:flex; width:26px" class="">
+                    <div class="sep">
+                        <input type="checkbox" class="checkstyle">
+                    </div>
+                    <div class="">
+                        <p class="bn">ব্যক্তি মালিকানাধীন</p>
+                        <p class="en">(Proprietorship)</p>
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="sep">
+                        <input type="checkbox" class="checkstyle">
+                    </div>
+                    <div>
+                        <p class="bn">অংশীদারি</p>
+                        <p class="en">(Partnership)</p>
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="sep">
+                        <input type="checkbox" class="checkstyle">
+                    </div>
+                    <div style="margin-right: 5px">
+                        <p class="bn">লিমিটেড কোম্পানি</p>
+                        <p class="en">(Limited Company</p>
+                    </div>
+
+                </div>
+
+                <div style="display:flex;">
+                    <!-- <div>
+                        <input type="checkbox" class="checkstyle">
+                    </div> -->
+                    <div style="margin-right: 5px">
+                        <p class="bn">অন্যান্য</p>
+                        <p class="en">(Others)</p>
+                    </div>
+
+                    <input type="text" class="set-charge-input">
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="address" style="display: flex; margin-top: 5px;">
+            <div style="display:flex; width: 129px">
+                <div class="bn special-margin">৪.</div>
+                <div>
+                    <p class="bn" b>প্রতিষ্ঠানের ঠিকানা</p>
+                    <p class="en">(Organization's Address)</p>
+                </div>
+
+            </div>
+
+            <div style="display:flex; width: 410px; justify-content: space-evenly; flex-wrap: wrap;" class="">
+                <div class="bn sep ">ক.</div>
+                <div style="display: flex;">
+                    <div class="">
+                        <p class="bn">নিবন্ধিত ঠিকানাঃ</p>
+                        <p class="en">(As per Trade Licence)</p>
+                    </div>
+
+                    <div class="">
+                        <input type="text" class="semibiginput">
+
+                    </div>
+                </div>
+
+                <!-- <div class="b3">hello</div> -->
+
+            </div>
+
+        </div>
+
+
+        <div style="display: flex; justify-content: flex-start; margin-top:5px;" class="">
+            <div class="empty-div " style="width: 147px;">
+
+            </div>
+
+            <div class="b" style="display:flex; width: 410px; justify-content: flex-start;">
+                <div style="display:flex; justify-content: space-between;">
+                    <div class="addr-item" style="margin-right: 26px">
+                        <p class="bn">গ্রাম/এলাকাঃ</p>
+                        <p class="en">(village/Area)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-1 sep">
+                    </div>
+                </div>
+                <div style="display:flex;">
+                    <div class="addr-item sep">
+                        <p class="bn">থানা/উপজেলা</p>
+                        <p class="en">(Thana/Upazilla)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-2 sep">
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="addr-item sep">
+                        <p class="bn">জেলা/শহর</p>
+                        <p class="en">(District/City)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-3 sep">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div style="display: flex; justify-content: flex-start; margin-top:5px;" class="">
+            <div class="empty-div " style="width: 147px;">
+
+            </div>
+
+            <div class="" style="display:flex; width: 410px; justify-content: flex-start;">
+                <div style="display:flex; justify-content: space-between;">
+                    <div class="addr-item" style="margin-right: 38px">
+                        <p class="bn">বিভাগ</p>
+                        <p class="en">(Division)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-1 sep">
+                    </div>
+                </div>
+                <div style="display:flex;">
+                    <div class="addr-item" style="margin-right: 18px;">
+                        <p class="bn">পোস্ট অফিসঃ</p>
+                        <p class="en">(Post Office)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-2 sep">
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="addr-item sep">
+                        <p class="bn">পোস্ট কোডঃ</p>
+                        <p class="en">(Post Code)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-3 sep">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- dublicate -->
+
+        <div class="address" style="display: flex; margin-top: 5px;">
+            <div style="display:flex; width: 129px">
+                <div class="bn special-margin"></div>
+                <div>
+                    <p class="bn" b></p>
+                    <p class="en"></p>
+                </div>
+
+            </div>
+
+            <div style="display:flex; width: 410px; justify-content: space-evenly; flex-wrap: wrap;" class="">
+                <div class="bn sep ">খ.</div>
+                <div style="display: flex;">
+                    <div class="">
+                        <p class="bn">প্রতিষ্ঠানের ঠিকানাঃ</p>
+                        <p class="en">(As per Trade Licence)</p>
+                    </div>
+
+                    <div class="">
+                        <input type="text" class="semibiginput">
+
+                    </div>
+                </div>
+
+                <!-- <div class="b3">hello</div> -->
+
+            </div>
+
+        </div>
+
+
+        <div style="display: flex; justify-content: flex-start; margin-top:5px;" class="">
+            <div class="empty-div " style="width: 147px;">
+
+            </div>
+
+            <div class="b" style="display:flex; width: 410px; justify-content: flex-start;">
+                <div style="display:flex; justify-content: space-between;">
+                    <div class="addr-item" style="margin-right: 26px">
+                        <p class="bn">গ্রাম/এলাকাঃ</p>
+                        <p class="en">(village/Area)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-1 sep">
+                    </div>
+                </div>
+                <div style="display:flex;">
+                    <div class="addr-item sep">
+                        <p class="bn">থানা/উপজেলা</p>
+                        <p class="en">(Thana/Upazilla)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-2 sep">
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="addr-item sep">
+                        <p class="bn">জেলা/শহর</p>
+                        <p class="en">(District/City)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-3 sep">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div style="display: flex; justify-content: flex-start; margin-top:5px;" class="">
+            <div class="empty-div " style="width: 147px;">
+
+            </div>
+
+            <div class="" style="display:flex; width: 410px; justify-content: flex-start;">
+                <div style="display:flex; justify-content: space-between;">
+                    <div class="addr-item" style="margin-right: 38px">
+                        <p class="bn">বিভাগ</p>
+                        <p class="en">(Division)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-1 sep">
+                    </div>
+                </div>
+                <div style="display:flex;">
+                    <div class="addr-item" style="margin-right: 18px;">
+                        <p class="bn">পোস্ট অফিসঃ</p>
+                        <p class="en">(Post Office)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-2 sep">
+                    </div>
+                </div>
+
+                <div style="display:flex;">
+                    <div class="addr-item sep">
+                        <p class="bn">পোস্ট কোডঃ</p>
+                        <p class="en">(Post Code)</p>
+                    </div>
+
+                    <div>
+                        <input type="text" class="addr-input-3 sep">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div style="display: flex; margin-top: 5px;">
+            <div class="bn" style="width:12px; height: 8px;">৫.</div>
+            <div class="" style="width: 120px; margin-right: 10px;">
+                <p class="bn">ব্যবসায়িক মোবাইল নাম্বারঃ </p>
+                <p class="en">(Business Mobile Number)</p>
+            </div>
+            <div>
+                <input type="text" style="width: 146px; height: 18px; margin-right: 11px;" class="mb-input">
+            </div>
+            <div class="bn" style="width: 12px; height: 8px">৬.</div>
+            <div style="width: 75px;">
+                <p class="bn">ই-মেইলঃ</p>
+                <p class="en">(Email)</p>
+            </div>
+            <div>
+                <input type="text" style="width: 148px; height: 18px;" class="mb-input">
+            </div>
+
+        </div>
+
+
+        <div style="display: flex; margin-top: 5px;">
+            <div class="bn" style="width:12px; height: 8px;">৬.</div>
+            <div class="" style="width: 120px; margin-right: 10px;">
+                <p class="bn">ট্রেড লাইসেন্স নাম্বারঃ</p>
+                <p class="en">(Trade Licence Number)</p>
+            </div>
+            <div>
+                <input type="text" style="width: 146px; height: 18px; margin-right: 11px;" class="mb-input">
+            </div>
+            <div class="bn" style="width: 12px; height: 8px">৬.</div>
+            <div style="width: 75px;">
+                <p class="bn">টিন নাম্বার(যদি থাকে)</p>
+                <p class="en">[Tin Number (If any)]</p>
+            </div>
+            <div>
+                <input type="text" style="width: 148px; height: 18px;" class="mb-input">
+            </div>
+
+        </div>
+
+        <div style="display:flex;margin-top: 5px;" class="">
+            <div style="display:flex; width: 129px">
+                <div class="bn special-margin">৭.</div>
+                <div>
+                    <p class="bn" b>ভ্যাট রেজিস্ট্রেশন নাম্বার (যদি থাকে)</p>
+                    <p class="en">[Vat Registration Number (If any)]</p>
+                </div>
+
+            </div>
+
+            <div>
+                <input type="text" class="biginput">
+            </div>
+        </div>
+
+        <div class="settlement" style="margin-top:10px;">
+            <div class="bn" style="margin-right: 5px;">১০.</div>
+            <div style="width: 129px">
+                <p class="bn" style="width:129px; height:8px">মার্চেন্ট ব্যবসার শ্রেণীঃ</p>
+                <p class="en" style="width:129px; height:7px">(Merchant Business Category)</p>
+            </div>
+
+            <div style="display:flex; justify-content: space-between; width: 410px" class="">
+
+                <div>
+                    <div style="display:flex; width:26px" class="">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div class="">
+                            <p class="bn">খুচরা ব্যবসা </p>
+                            <p class="en">(Retails Trade)</p>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">লাইফস্টাইলঃ</p>
+                            <p class="en">(Lifestyle)</p>
+                        </div>
+                    </div>
+
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">ইলেক্ট্রনিক্স ও গৃহস্থালির পণ্য</p>
+                            <p class="en">(Electornics & Household)</p>
+                        </div>
+                    </div>
+
+
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">পাইকারি</p>
+                            <p class="en">(Wholesale)</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div>
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">ভ্রমণঃ</p>
+                            <p class="en">(Tours & Travel)</p>
+                        </div>
+                    </div>
+    
+    
+    
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">রেস্টুরেন্ট ও ক্যাফে</p>
+                            <p class="en">(Restaurant & Cafe)</p>
+                        </div>
+                    </div>
+    
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">উৎপাদকঃ
+                            </p>
+                            <p class="en">(Manufacturing)</p>
+                        </div>
+                    </div>
+    
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">ডিজিটাল সেবা</p>
+                            <p class="en">(Digital Service)</p>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div>
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">পরিবহন ও যানবাহন</p>
+                            <p class="en">(Transport & Vehicle)</p>
+                        </div>
+                    </div>
+    
+    
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">উপযোগ</p>
+                            <p class="en">(Utility)</p>
+                        </div>
+                    </div>
+    
+    
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">বিলিং</p>
+                            <p class="en">(Billing)</p>
+                        </div>
+                    </div>
+    
+                    <div style="display:flex;">
+                        <div class="sep">
+                            <input type="checkbox" class="checkstyle">
+                        </div>
+                        <div>
+                            <p class="bn">অন্যান্য</p>
+                            <p class="en">(Others)</p>
+                        </div>
+                        <input type="text" style="margin-left: 10px; width: 43px;" class="other-input">
+                    </div>
+                </div>
+
+
+              
+            </div>
+        </div>
+
+
+        <div style="display: flex;">
+            <div class="bn" style="margin-right: 5px;">১১.</div>
+            <div style="width:129px;">
+                <p class="bn">ব্যাংক একাউন্টের তথ্যঃ</p>
+                <p class="en">(Bank Account Information)</p>
+            </div>
+            
+            <div style="display:flex; justify-content: space-between;">
+                <div class="" style="margin-right: 29px;">
+                    <p class=bn >ব্যাংকের নামঃ</p>
+                    <p class="en"e>(Bank Name)</p>
+                </div>
+    
+                <input type="text" class="semibiginput">
+            </div>
+
+        </div>
+
+
+        <div style="display: flex; margin-top: 5px;">
+            <div class="bn" style="margin-right: 5px;"></div>
+            <div style="width:136px;">
+                <p class="bn"></p>
+                <p class="en"></p>
+            </div>
+            
+            <div style="display:flex; justify-content: space-between;">
+                <div class="sep"s>
+                    <p class=bn >ব্যাংক একাউন্টের নামঃ</p>
+                    <p class="en"e>(Bank Account Name)</p>
+                </div>
+    
+                <input type="text" class="semibiginput">
+            </div>
+
+        </div>
+
+
+        <div style="display: flex; margin-top: 5px;">
+            <div class="bn" style="margin-right: 5px;"></div>
+            <div style="width:136px;">
+                <p class="bn"></p>
+                <p class="en"></p>
+            </div>
+            
+            <div style="display:flex; justify-content: space-evenly;">
+                <div class="sep"s>
+                    <p class=bn >ব্যাংক একাউন্ট নাম্বারঃ</p>
+                    <p class="en">Bank Account Number</p>
+                </div>
+    
+                <input type="text" class="semibiginput">
+            </div>
+
+        </div>
+
+
+        <div style="display: flex; margin-top: 5px;">
+            <div class="bn" style="margin-right: 5px;"></div>
+            <div style="width:136px;">
+                <p class="bn"></p>
+                <p class="en"></p>
+            </div>
+            
+            <div style="display:flex; justify-content: space-evenly;">
+                <div class="" style="margin-right: 16px;">
+                    <p class="bn">রাউটিং নাম্বারঃ</p>
+                    <p class="en">(Routing Number)</p>
+                </div>
+    
+                <input type="text" class="info-input-1 special-margin">
+
+                <div class="special-margin"s>
+                    <p class="bn">শাখার নাম</p>
+                    <p class="en">(Branch Name)</p>
+                </div>
+    
+                <input type="text" class="info-input-2">
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
