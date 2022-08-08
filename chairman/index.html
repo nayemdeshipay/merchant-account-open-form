@@ -5,31 +5,666 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chairman</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>chairman</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600&family=Inter:wght@100;200;300;400;500;600&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <!-- 
-
-        font-family: 'Baloo Da 2', cursive;
-        font-family: 'Inter', sans-serif;
-    -->
-
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-<body style="">
-    <div class="container">
-        <div class="header-div">
-            <p class="header-content">
-                এম.ডি/চেয়ারম্যানের তথ্য
-                (MD/Chairman's Personal Information)
+<body>
+
+    <div class="container b1">
+        <div style="text-align: center;">
+            <p class="heading" style="margin: 0 auto;">এম.ডি / চেয়ারম্যান'র ব্যক্তিগত তথ্য <span
+                    style="font-family: 'Inter', sans-serif; font-style: normal; font-size: 8px; line-height: 10px; letter-spacing: -0.02em;">(MD/Chairman’s
+                    Personal Information)</span></p>
+        </div>
+
+        <div class=""
+            style="width: 595px; height: 120px; padding: 12px 24px 12px 24px; display: flex; justify-content: space-between;">
+
+
+            <div class="" style="width: 435px; height: 120px;">
+                <div style="display: flex; justify-content: flex-start; margin-bottom: 12px; ">
+                    <div class="custom-bn1" style="width: 12px; height: 8px;">১.</div>
+                    <div style="width: 109px; height: 8px;">
+                        <p class="custom-bn1">আবেদনকারীর নাম:</p>
+                        <p class="custom-en1">(Applicant’s Name)</p>
+                    </div>
+                    <div>
+                        <input type="text" class="semibiginput">
+                    </div>
+                </div>
+
+
+                <div style="display: flex; justify-content: flex-start; margin-bottom: 12px; ">
+                    <div class="custom-bn1" style="width: 12px; height: 8px;">২.</div>
+                    <div style="width: 109px; height: 8px;">
+                        <p class="custom-bn1">পদবী:</p>
+                        <p class="custom-en1">(Designation)</p>
+                    </div>
+                    <div>
+                        <input type="text" class="semibiginput">
+                    </div>
+                </div>
+
+                <div style="display: flex; justify-content: flex-start; margin-bottom: 12px; ">
+                    <div class="custom-bn1" style="width: 12px; height: 8px;">৩.</div>
+                    <div style="width: 109px; height: 8px;">
+                        <p class="custom-bn1">পিতার নাম:</p>
+                        <p class="custom-en1">(Father’s name)</p>
+                    </div>
+                    <div>
+                        <input type="text" class="semibiginput">
+                    </div>
+                </div>
+
+
+                <div style="display: flex; justify-content: flex-start;  margin-bottom: 12px;">
+                    <div class="custom-bn1" style="width: 12px; height: 8px;">৪.</div>
+                    <div style="width: 109px; height: 8px;">
+                        <p class="custom-bn1">মাতার নাম:</p>
+                        <p class="custom-en1">(Mother’s Name)</p>
+                    </div>
+                    <div>
+                        <input type="text" class="semibiginput">
+                    </div>
+                </div>
+            </div>
+
+            <div class="photo ">
+                <p class="custom-bn2" style="margin-left: 20px; margin-top: 47px">পাসপোর্ট সাইজ ছবি</p>
+                <p class="custom-en2" style="margin-left: 7px;">(Passport Size Photograph)</p>
+            </div>
+        </div>
+
+
+        <div style="margin-top: 20px; padding-left: 24px; display: flex; justify-content:space-between;" class="">
+            <div class="custom-bn1 digit">৫.</div>
+
+            <div>
+                <p class="custom-bn1" style="width: 109px; height: 8px">জাতীয়তা:</p>
+                <p class="custom-en1" style="width: 109px; height: 7px">(Nationality)</p>
+            </div>
+
+            <div style="display:flex; width: 99.5px; justify-content: flex-start;">
+                <input type="checkbox" class="checkstyle">
+                <div style="margin-left: 5px; color: #4C4F52;">
+                    <p class="custom-bn1" style="">বাংলাদেশি</p>
+                    <p class="custom-en1">(Bangladeshi)</p>
+                </div>
+            </div>
+
+            <div style="display: flex; width: 76.5;">
+                <input type="checkbox" class="checkstyle">
+                <div style="margin-left: 5px; color: #4C4F52">
+                    <p class="custom-bn1">অন্যান্য</p>
+                    <p class="custom-en1">(Others)</p>
+                </div>
+            </div>
+
+            <div class="digit custom-bn1" style="margin-left: 48px">
+                ৬.
+            </div>
+            <div style="width: 300px; display: flex; justify-content:space-between;">
+
+
+                <div style="margin-left: 6px; color: #000;">
+                    <p class="custom-bn1">জন্ম তারিখ:</p>
+                    <p class="custom-en1">(Date of Birth)</p>
+                </div>
+
+                <div style="">
+                    <input type="text" placeholder="D" class="date-input">
+                    <input type="text" placeholder="D" class="date-input">
+                    -
+                    <input type="text" placeholder="M" class="date-input">
+                    <input type="text" placeholder="M" class="date-input">
+                    -
+                    <input type="text" placeholder="Y" class="date-input">
+                    <input type="text" placeholder="Y" class="date-input">
+                    <input type="text" placeholder="Y" class="date-input">
+                    <input type="text" placeholder="Y" class="date-input">
+
+                </div>
+            </div>
+        </div>
+
+
+        <div style="margin-top: 10px; display: flex; padding-left: 24px;" class="">
+            <div class="custom-bn1 digit">৭.</div>
+
+            <div style="width: 109px;">
+                <p class="custom-bn1">লিঙ্গ:</p>
+                <p class="custom-en1">(Sex)</p>
+            </div>
+
+            <div style="width: 56px; display: flex; ">
+                <input type="checkbox" class="checkstyle">
+                <div style="margin-left: 5px;">
+                    <p class="custom-bn2">পুরুষ</p>
+                    <p class="custom-en2">(Male)</p>
+                </div>
+            </div>
+
+            <div style="width: 56px; display: flex;">
+                <input type="checkbox" class="checkstyle">
+                <div style="margin-left: 5px;">
+                    <p class="custom-bn2">নারী</p>
+                    <p class="custom-en2">(Female)</p>
+
+                </div>
+            </div>
+
+
+
+            <div style="width: 56px; display: flex;">
+                <input type="checkbox" class="checkstyle">
+                <div style="margin-left: 5px;">
+                    <p class="custom-bn2">অন্যান্য</p>
+                    <p class="custom-en2">(Others)</p>
+                </div>
+            </div>
+
+            <div style="width: 269px; display: flex; margin-left: 6px;">
+
+                <div class="custom-bn1 digit">
+                    ৮.
+                </div>
+
+
+                <div style="width: 44px;">
+                    <p class="custom-bn1">মোবাইল নম্বর:</p>
+                    <div class="custom-en1">(Mobile Nmbr.)</div>
+                </div>
+
+                <input type="text" class="mobile-input" style="margin-left: 62px;">
+
+            </div>
+        </div>
+
+
+        <div style="display:flex; padding-left: 24px; margin-top: 5px" class="">
+            <div class="custom-bn1 digit">৯.</div>
+
+            <div style="width: 109px;">
+                <p class="custom-bn1">পরিচয়পত্রের নম্বর:</p>
+                <p class="custom-en1">(NID Number)</p>
+            </div>
+
+            <input type="text"
+                style="width: 443px; height: 18px; background-color: #f0f2f5; border: 0.5px solid #dadadc; border-radius: 2px;">
+        </div>
+
+
+
+        <div style="display: flex; padding-left: 24px; margin-top: 10px " class="">
+            <div class="custom-bn1 digit">১০.</div>
+            <div style="width: 168px;">
+                <p class="custom-bn1">আবেদনকারী বিদেশি/অনাবাসিক হলে প্রয়োজনীয় দলিল:</p>
+                <p class="custom-en1">(Required Document if the Applicant is a Foreigner)</p>
+            </div>
+
+        </div>
+
+        <div style="margin: 5px 0; display: flex; padding-left: 48px; justify-content: space-between;" class="">
+            <div class="custom-bn1 ka" style="">ক.</div>
+
+            <div style="width: 77px;">
+                <p class="custom-bn1">পাসপোর্ট নম্বর:</p>
+                <p class="custom-en1">(Passport Number)</p>
+            </div>
+
+            <input type="text"
+                style="width:156.5px; height: 18px; background-color: #f0f2f5; border: 0.5px solid #dadadc; border-radius: 2px;">
+
+
+            <div class="work"">
+                <p class=" custom-bn1">মেয়াদ কাল:</p>
+                <p class="custom-en1">(Expire Date)</p>
+            </div>
+
+
+            <div style="width: 156.5px; display: flex; justify-content: space-between;">
+                <input type="text" placeholder="D" class="date-input">
+                <input type="text" placeholder="D" class="date-input">
+                -
+                <input type="text" placeholder="M" class="date-input">
+                <input type="text" placeholder="M" class="date-input">
+                -
+                <input type="text" placeholder="Y" class="date-input">
+                <input type="text" placeholder="Y" class="date-input">
+                <input type="text" placeholder="Y" class="date-input">
+                <input type="text" placeholder="Y" class="date-input">
+            </div>
+        </div>
+
+
+        <div style="margin: 5px 0;display:flex; padding-left: 48px; justify-content: space-between;"" class="">
+            <div class=" custom-bn1 ka">খ.</div>
+
+        <div class="work">
+            <p class="custom-bn1">কাজের অনুমতি:</p>
+            <p class="custom-en1">(Pemission of Work)</p>
+        </div>
+
+
+        <div style="display:flex; width:76.25px; margin-left: 10px;">
+            <input type="checkbox" class="checkstyle">
+            <p class="custom-bn2" style="margin-left: 5px">আছে <span class="custom-en2">(Yes)</span></p>
+        </div>
+
+        <div style="display:flex; width: 76.25px;">
+            <input type="checkbox" class="checkstyle">
+            <p class="custom-bn2" style="margin-left: 5px">নেই <span class="custom-en2">(No)</span></p>
+        </div>
+
+
+        <div class="work">
+            <p class="custom-bn1">মেয়াদ কাল:</p>
+            <p class="custom-en1">(Expire Date)</p>
+        </div>
+
+        <div style="display:flex; justify-content: space-between;width: 156.5px;">
+            <input type="text" placeholder="D" class="date-input">
+            <input type="text" placeholder="D" class="date-input">
+            -
+            <input type="text" placeholder="M" class="date-input">
+            <input type="text" placeholder="M" class="date-input">
+            -
+            <input type="text" placeholder="Y" class="date-input">
+            <input type="text" placeholder="Y" class="date-input">
+            <input type="text" placeholder="Y" class="date-input">
+            <input type="text" placeholder="Y" class="date-input">
+        </div>
+    </div>
+
+
+    <div style="margin: 5px 0;display: flex; padding-left: 48px; justify-content: space-between;"">
+            <div class=" custom-bn1 ka">গ.</div>
+
+    <div class="work">
+        <p class="custom-bn1">ভিসা নম্বর:</p>
+        <p class="custom-en1">(Visa Number)</p>
+    </div>
+
+    <input type="text"
+        style="width:156.5px; height: 18px; background-color: #f0f2f5; border: 0.5px solid #dadadc; border-radius: 2px;">
+
+
+    <div class="work">
+        <p class="custom-bn1">মেয়াদ কাল:</p>
+        <p class="custom-en1">(Expire Date)</p>
+    </div>
+
+
+    <div style="display:flex; justify-content: space-between;width: 156.5px;">
+        <input type="text" placeholder="D" class="date-input">
+        <input type="text" placeholder="D" class="date-input">
+        -
+        <input type="text" placeholder="M" class="date-input">
+        <input type="text" placeholder="M" class="date-input">
+        -
+        <input type="text" placeholder="Y" class="date-input">
+        <input type="text" placeholder="Y" class="date-input">
+        <input type="text" placeholder="Y" class="date-input">
+        <input type="text" placeholder="Y" class="date-input">
+    </div>
+    </div>
+
+
+    <div style="margin: 5px 0;display: flex;padding-left: 48px; justify-content: space-between;"">
+            <div class=" custom-bn1 ka">ঘ.</div>
+
+    <div class="work">
+        <p class="custom-bn1">ভিসার ধরন:</p>
+        <p class="custom-en1">(Type of Visa)</p>
+    </div>
+
+    <div style="width: 99.5px; display:flex; margin-left: 10px;">
+        <input type="checkbox" class="checkstyle">
+        <div>
+            <p class="custom-bn2" style="margin-left: 5px;">বসবাসের জন্য
+                <span class="custom-en2">(Residential)</span>
             </p>
         </div>
     </div>
-</body>
 
-</html>
+    <div style="width: 99.5px; display:flex;">
+        <input type="checkbox" class="checkstyle">
+        <div>
+            <p class="custom-bn2" style="margin-left:5px;">কাজের জন্য
+                <span class="custom-en2">(Work)</span>
+            </p>
+        </div>
+    </div>
+
+    <div style="display:flex;">
+        <input type="checkbox" class="checkstyle">
+        <div>
+            <p class="custom-bn2" style="margin-left: 5px;">অন্যান্য
+                <span class="custom-en2">(Others)</span>
+            </p>
+        </div>
+        <input type="text"
+            style="width: 132px; height: 16px; background-color: #f0f2f5; border :0.5px solid #dadadc; border-radius: 2px; margin-left: 9px">
+
+    </div>
+
+    </div>
+
+    <!-- address  1 start -->
+    <div style="display:flex;padding-left:  24px; margin-top: 10px">
+            <div class=" custom-bn1 digit">১১.</div>
+
+    <div style="width: 109px;">
+        <p class="custom-bn1">বর্তমান ঠিকানা:</p>
+        <p class="custom-en1">(Present Address)</p>
+    </div>
+    <input type="text"
+        style="width: 446px; height: 18px; background-color: #f0f2f5; border: 0.5px solid #dadadc; border-radius: 2px;">
+
+
+    </div>
+
+
+    <div style="display:flex; justify-content: space-between; padding-left: 48px;"">
+        <div style=" width: 77px">
+            <p class="custom-bn1">গ্রাম/এলাকা:</p>
+            <p class="custom-en1">(Village/Area)</p>
+        </div>
+            <input type="text" class="add1">
+
+        <div style="width: 45px">
+            <p class="custom-bn1">থানা/উপজেলা:</p>
+            <p class="custom-en1">(Thana/Upazilla) </p>
+        </div>
+        <input type="text" class="add2">
+        <div stye="width:35px">
+            <p class="custom-bn1">জেলা/শহর:</p>
+            <p class="custom-en1">(District/City)</p>
+        </div>
+        <input type="text" class="add2">
+    </div>
+
+
+    <div style="display:flex; justify-content: space-between; padding-left:48px;">
+        <div style="width: 77px">
+            <p class="custom-bn1">বিভাগ:</p>
+            <p class="custom-en1">(Division)</p>
+        </div>
+        <input type="text" class="add1">
+
+        <div style="width:49px">
+            <p class="custom-bn1">পোস্ট অফিস:</p>
+            <p class="custom-en1">(Post Office) </p>
+        </div>
+        <input type="text" class="add2">
+        <div style="width: 40px;">
+            <p class="custom-bn1">পোস্ট কোড:</p>
+            <p class="custom-en1">(Post Code)</p>
+        </div>
+        <input type="text" class="add2">
+    </div>
+    <!-- address 1 end -->
+
+
+    <!-- address 2 start -->
+    <div style="display:flex; padding-left: 24px;margin-top: 10px; ">
+        <div class="custom-bn1 digit">১২.</div>
+
+        <div class="" style="width: 109px">
+            <p class="custom-bn1">স্থায়ী ঠিকানা:</p>
+            <p class="custom-en1">(Permanent Address)</p>
+        </div>
+        <input type="text"
+            style="width: 446px; height: 18px; background-color: #f0f2f5; border: 0.5px solid #dadadc; border-radius: 2px;">
+
+    </div>
+
+
+    <div style="display:flex;padding-left: 48px; justify-content: space-between;">
+        <div style="width: 77px;">
+            <p class="custom-bn1">গ্রাম/এলাকা:</p>
+            <p class="custom-en1">(Village/Area)</p>
+        </div>
+        <input type="text" class="add1">
+
+        <div style="width:45px ">
+            <p class="custom-bn1">থানা/উপজেলা:</p>
+            <p class="custom-en1">(Thana/Upazilla) </p>
+        </div>
+        <input type="text" class="add2">
+        <div style="width: 40px">
+            <p class="custom-bn1">জেলা/শহর:</p>
+            <p class="custom-en1">(District/City)</p>
+        </div>
+        <input type="text" class="add2">
+    </div>
+
+
+    <div style="display:flex;padding-left: 48px; justify-content: space-between; ">
+        <div style="width: 77px">
+            <p class="custom-bn1">বিভাগ:</p>
+            <p class="custom-en1">(Division)</p>
+        </div>
+        <input type="text" class="add1">
+
+        <div style="width: 49px">
+            <p class="custom-bn1">পোস্ট অফিস:</p>
+            <p class="custom-en1">(Post Office) </p>
+        </div>
+        <input type="text" class="add2">
+        <div style="width: 40px">
+            <p class="custom-bn1">পোস্ট কোড:</p>
+            <p class="custom-en1">(Post Code)</p>
+        </div>
+        <input type="text" class="add2">
+    </div>
+    <!-- address 2 end -->
+
+    <div
+        style="width: 592px; height: 66px; background-color: rgba(0, 139, 34, 0.06); border: 0.5px solid rgba(194, 227, 202, 1); border-radius: 4px;padding-left: 24px; margin-top: 10px; padding-top: 5px; height: 75px">
+        <div style="display: flex; justify-content:space-evenly;">
+            <div class="custom-bn1 digit">১৩.</div>
+            <div style="width: 99px">
+                <p class="custom-bn1">প্রতিনিধির নাম:</p>
+                <p class="custom-en1">(Representative's Name)</p>
+            </div>
+            <input type="text" class="rep-input">
+            <div class="custom-bn1 digit">১৪.</div>
+            <div style="width: 86px;">
+                <p class="custom-bn1">প্রতিনিধির পরিচয়পত্রের নম্বর:</p>
+                <p class="custom-en1">(Representative's NID Number)</p>
+            </div>
+            <input type="text" class="rep-input">
+        </div>
+
+
+        <div style="display: flex; justify-content: space-evenly;">
+            <div class="custom-bn1 digit">১৫.</div>
+            <div style="width: 99px;">
+                <p class="custom-bn1">প্মার্চেন্ট একাউন্টের সাথে সম্পর্ক</p>
+                <p class="custom-en1">(Relation with Merchant Account)</p>
+            </div>
+            <input type="text" class="rep-input">
+            <div class="custom-bn1 digit">১৬.</div>
+            <div style="width: 97px;">
+                <p class="custom-bn1">প্রতিনিধির মোবাইল নম্বর:</p>
+                <p class="custom-en1">(Representative's Mobile Nmbr.)</p>
+            </div>
+            <input type="text" class="rep-input">
+        </div>
+    </div>
+
+
+    <div style="width: 592px; height: 82px;background: rgba(0, 139, 34, 0.06);border: 0.5px solid #C2E3CA;
+        border-radius: 4px; padding-left: 24px; margin-top: 10px; padding-top: 5px;">
+
+        <p class="custom-bn1">আমি এই মর্মে ঘোষণা করছি যে, এই ফরমে প্রদত্ত সকল তথ্য সঠিক ও পূর্ণাঙ্গ। আমার জ্ঞাতসারে আমার
+            প্রদানকৃত দলিলসমূহ সত্য। কোনো ধরনের ভুল দলিল বা অসত্য তথ্য প্রদানের জন্য আমি আইনত দায়ী থাকবো। <span
+                class="custom-en1">(I, hereby declare that the information I have given here is correct and complete to
+                the best of my knowledge. The documents submitted along with this form are genuine. I shall be legally
+                liable if I am found to have provided any false document or information.)</span></p>
+
+        <div style="display:flex; margin-top: 5px; justify-content: space-between;">
+            <div width: 68px;>
+                <p class="custom-bn1">আবেদনকারীর নাম:</p>
+                <p class=custom-en1>(Applicant’s Name)</p>
+            </div>
+            <input type="text"
+                style="width: 179.5px; height: 18px; background-color: #fff; border: 0.5px solid #c2e3ca; border-radius: 2px;">
+
+            <div>
+                <p class="custom-bn1" c>আবেদনকারীর স্বাক্ষর ও তারিখ:</p>
+                <p class="custom-en1">(Applicant’s Signature & Date)</p>
+            </div>
+            <hr style="margin-top: 17px; border: none; width: 146.5px; height: 0.5px; background-color: #c3e3ca;">
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-top: 10px">
+        <p class="heading" style="margin: 0 auto; width: 100px; height: 18px;">সংযুক্তি<span
+                style="font-family: 'Inter', sans-serif; font-style: normal; font-size: 8px; line-height: 10px; letter-spacing: -0.02em;">(Attachments)</span>
+        </p>
+    </div>
+
+    <div style="width: 592px; height: 92px; margin-top: 10px; padding-left: 24px;" class="">
+        <div style="display:flex; justify-content: space-between; margin-top:10px;" class="">
+            <div style="display:flex; width: 133.75px;" class="">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">ছবি সংযুক্ত পরিচয়পত্রের ১ কপি</p>
+                    <p class="custom-en2">(Copy of Photo ID)</p>
+                </div>
+            </div>
+
+            <div style="display:flex; width: 133.75px">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">নিবন্ধন পত্র</p>
+                    <p class="custom-en2">(Registration Certificate)</p>
+                </div>
+            </div>
+            <div style="display:flex; width: 133.75px">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">ভ্যাট সার্টিফিকেটের কপি</p>
+                    <p class="custom-en2">(Copy of VAT Certificate)</p>
+                </div>
+            </div>
+            <div style="display:flex; width: 133.75px">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">আবেদনকারীর ১ কপি ছবি</p>
+                    <p class="custom-en2">(1 Copy Photo of Applicant)</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="display:flex; justify-content: space-between; margin-top: 10px;">
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">সংঘ স্মারক</p>
+                    <p class="custom-en2">(Memorandum of Association)</p>
+                </div>
+            </div>
+
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">সমবায় সার্টিফিকেট</p>
+                    <p class="custom-en2">(Certificate of Co-operative)</p>
+                </div>
+            </div>
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">ট্রেড লাইসেন্সের কপি</p>
+                    <p class="custom-en2">(Copy of Trade License)</p>
+                </div>
+            </div>
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">মালিকানার দলিল</p>
+                    <p class="custom-en2">(Ownership Document)</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="display:flex; justify-content: space-between; margin-top: 10px">
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">চেয়ারম্যান/ কমিশনার সার্টিফিকেট</p>
+                    <p class="custom-en2">(Chairman/Comissioner’s Certificate)</p>
+                </div>
+            </div>
+
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">টিআইএন সার্টিফিকেটের কপি</p>
+                    <p class="custom-en2">(Copy of TIN Certificate)</p>
+                </div>
+            </div>
+            <div style="display:flex;  width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">দোকান ভাড়ার রশিদ</p>
+                    <p class="custom-en2">(Shop Rent Receipt)</p>
+                </div>
+            </div>
+            <div style="display:flex; width: 133.75px;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">ফর্ম টেন </p>
+                    <p class="custom-en2">(Form X)</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="display:flex; justify-content: space-between; margin-top: 10px">
+            <div style="display:flex;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">দোকানের ছবি</p>
+                    <p class="custom-en2">(Shop Image)</p>
+                </div>
+            </div>
+
+            <div style="display:flex; margin-left: 59px">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px">
+                <div>
+                    <p class="custom-bn2">অন্যান্য</p>
+                    <p class="custom-en2"></p>
+                </div>
+                <input type="text"
+                    style="padding: 5px 6px; width: 65.7px; height: 16px; background-color: #f0f2f5; border: 0.5px solid #dadadc; border-radius: 2px; margin-left: 1px;">
+            </div>
+
+
+            <div style="display:flex;">
+                <input type="checkbox" class="checkstyle" style="margin-right: 5px;">
+                <div style="width: 276px;">
+                    <p class="custom-bn2">বিস্তারিত তথ্যসহ আউটলেট তালিকা (ঠিকানা, ওয়ালেট নাম্বার, ম্যানেজারের নাম ও ফোন
+                        নাম্বার)</p>
+                    <p class="custom-en2">(Outlet List with details (Address, Wallet Number, Manager’s Name & Phone
+                        Nmbr)</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+</body>
