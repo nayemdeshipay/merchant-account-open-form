@@ -1,0 +1,19 @@
+/* font-family: 'Baloo Da 2', cursive;
+font-family: 'Inter', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 595px;
+    height: 842px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.b1{
+    border: 1px solid black;
+}
