@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <title>Transaction Profile</title>
+</head>
+
+<body>
+    <div class="container b1">
+        <div class="top b1">
+            <div class="title">
+                <p class="p1">মার্চেন্ট ট্রানজেকশন প্রোফাইল </p>
+                <p class="p2">(Merchant Transaction Profile)</p>
+            </div>
+            <div class="note">
+                <p class="n1">নোট: প্রবিধান ও ব্যবস্থাপনা অনুমোদন অনুযায়ী হবে</p>
+                <p class="n2">(Note: Need to capture as per regulation and management approval)</p>
+            </div>
+        </div>
+
+        <div class="risk" style="margin-top: 10px">
+            <p>প্রতিষ্ঠানের সামগ্রিক ঝুঁকি/ রিস্ক রেটিং নিরূপণ (Business Risk Analysis Matrix): মার্চেন্ট নির্ভর ব্যবসার
+                ধরন অনুযায়ী রিস্ক স্কেল (৫-০) সহ ব্যবসার ধরন অনুযায়ী মার্চেন্টের রিস্ক
+                লেভেল মার্কার। রিস্ক স্কেলে ‘৫’ পাওয়া ব্যবসার জন্য বাড়তি নথিপত্রের প্রয়োজন হবে।<span class="erisk">
+                    [Risk Level marker of the Merchant based on the nature of the business with risk scale 5-0 (5 is the
+                    highest risk business and 0 is the lowest risk). We also need to ensure additional documents for the
+                    business with rating ‘5’ on risk marker]</span></p>
+        </div>
+
+        <div style="display: flex; width: 547px; justify-content: space-between; margin-top: 10px" class="" >
+            <!-- left table -->
+            <div>
+                <table class="toptable">
+                    <thead>
+                        <tr>
+                            <th class="h" style="height: 24px;">ক্রমিকনং</th>
+                            <th class="h" style="height: 24px;">ব্যবসার ধরন</th>
+                            <th class="h" style="height: 24px;">রিস্কলেভেল</th>
+                            <th class="h" style="height: 24px;">স্কোর</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="d">০১</td>
+                            <td class="d">জুয়েলারি/স্বর্ণ ও মূল রত্ন-পাথর / ধাতুর ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <!-- <tr>
+                            <td class="d">০২</td>
+                            <td class="d">মানি চেঞ্জার/কুরিয়ার সার্ভিস / মোবাইল ব্যাংকিং এজেন্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">০৩</td>
+                            <td class="d">রিয়েল এস্টেট ডেভেলপার / এজেন্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">০৪</td>
+                            <td class="d">ভবন নির্মাণ প্রমোটার / ঠিকাদার</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">০৫</td>
+                            <td class="d">অনাবাসী প্রতিষ্ঠান</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">০৬</td>
+                            <td class="d">রেস্তোরাঁ/বার/নাইট ক্লাব/ আবাসিক হোটেল/পার্লার</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">০৭</td>
+                            <td class="d">আমদানি-রপ্তানি/ আমদানি-রপ্তানি এজেন্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">০৮</td>
+                            <td class="d">তৈরি পোশাক প্রস্তুতকারক/এক্সেসরিজ/প্যাকেজিং/ বায়িং হাউজ</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">০৯</td>
+                            <td class="d">শোয়ার/ স্টক ডিলার, ব্রোকার, পোর্টফোলিও, ম্যানেজার মার্কেটি ব্যাংকার</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১০</td>
+                            <td class="d">এনজিও/ অলাভজনক প্রতিষ্ঠান</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">১১</td>
+                            <td class="d">জনশক্তি রপ্তানিকারক</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১২</td>
+                            <td class="d">চলচ্চিত্র প্রযোজনা ও পরিবেশনা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১৩</td>
+                            <td class="d">অস্ত্র ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১৪</td>
+                            <td class="d">এমোবাইল ফোন অপারেটর/ইন্টারনেট / কেবল টিভি অপারেটর</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১৫</td>
+                            <td class="d">ল্যান্ড / হাউজিং ব্রোকার</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১৬</td>
+                            <td class="d">ব্যাংক/লিজিং/ফিন্যান্সিং কোম্পানি</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+                        <tr>
+                            <td class="d">১৭</td>
+                            <td class="d">পরিবহন সেবা পরিচালনাকারী</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">১৮</td>
+                            <td class="d">ইনস্যুরেন্স / ব্রোকারেজ এজেন্সি</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">১৯</td>
+                            <td class="d">ধর্মীয় প্রতিষ্ঠান/সমিতি / শিক্ষা প্রতিষ্ঠান</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">২০</td>
+                            <td class="d">ট্রাস্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">২১</td>
+                            <td class="d">পেট্রোল পাম্প/সিএনজি স্টেশন ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">২২</td>
+                            <td class="d">তামাক ও সিগারেট ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">২৩</td>
+                            <td class="d">সফটওয়্যার ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">২৪</td>
+                            <td class="d">শিপ ব্রেকিং ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৫</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">২৫</td>
+                            <td class="d">ক্লিয়ারিং অ্যান্ড ফর‍্যাডিং এজেট ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+
+
+
+                        <tr>
+                            <td class="d">২৬</td>
+                            <td class="d">ডিলার/ ডিস্ট্রিবিউটর/ এজেন্ট ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">২৭</td>
+                            <td class="d">ইনডেন্টিং ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">২৮</td>
+                            <td class="d">আউটসোরসিং ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">২৯</td>
+                            <td class="d">ইভেন্ট ম্যানেজমেন্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+ -->
+
+
+                    </tbody>
+
+
+                </table>
+            </div>
+
+
+            <!-- right table -->
+
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th class="h">ক্রমিক
+                                নং</th>
+                            <th class="h">ব্যবসার ধরন</th>
+                            <th class="h">রিস্ক
+                                লেভেল</th>
+                            <th class="h">স্কোর</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="d">৩০</td>
+                            <td class="d">চার্টার্ড অ্যাকাউন্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <!-- <tr>
+                            <td class="d">৩১</td>
+                            <td class="d">কর্পোরেট কাস্টোমার</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৩২</td>
+                            <td class="d">ল ফার্ম/ ইঞ্জিনিয়ারিং ফার্ম / কনসালটেন্সি ফার্ম</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">৩৩</td>
+                            <td class="d">বিদ্যুৎ ও জ্বালানি উৎপাদনকারী প্রতিষ্ঠান</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৩৪</td>
+                            <td class="d">প্রিন্ট/ইলেকট্রনিক মিডিয়া</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">৩৫</td>
+                            <td class="d">ট্রাভেল এজেন্ট/ট্যুরিজম কোম্পানি</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৩৬</td>
+                            <td class="d">অটো ডিলার (রি-কন্ডিশন কার)</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">৩৭</td>
+                            <td class="d">ফ্রেইট/শিপিং/কাগো এজেন্ট/সিঅ্যান্ডএফ এজেন্ট</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">৩৮</td>
+                            <td class="d">নতুন গাড়ির ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৩৯</td>
+                            <td class="d">নির্মাণ সামগ্রীর ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৪০</td>
+                            <td class="d">চামড়া ও চামড়াজাত দ্রব্যের ব্যবসা</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৪১</td>
+                            <td class="d">টেলিযোগাযোগ প্রতিষ্ঠান</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">৪২</td>
+                            <td class="d">চেইন স্টোর/ শপিং মল</td>
+                            <td class="d">উচ্চ</td>
+                            <td class="d">৪</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৪৩</td>
+                            <td class="d">টেক্সটাইল / স্পিনিং মিল</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">৪৪</td>
+                            <td class="d">বিনোদন স্টেশন / পার্ক</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">৪৫</td>
+                            <td class="d">মোটর পার্টস/ওয়ার্কশপ ব্যবসা</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+                      
+
+                        <tr>
+                            <td class="d">৪৬</td>
+                            <td class="d">এজেন্ট ব্যবসা</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৪৭</td>
+                            <td class="d">ঔষধ উৎপাদন ও বিতরণ</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৪৮</td>
+                            <td class="d">কোল্ড স্টোরেজ</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">৪৯</td>
+                            <td class="d">ফ্রোজেন ফুড ব্যবসা</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৫০</td>
+                            <td class="d">হার্ডওয়্যার ব্যবসা</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৫১</td>
+                            <td class="d">বিজ্ঞাপন ব্যবসা</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৫২</td>
+                            <td class="d">সার্ভিস প্রোভাইডার</td>
+                            <td class="d">মাঝারি</td>
+                            <td class="d">৩</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৫৩</td>
+                            <td class="d">কম্পিউটার / মোবাইল ফোন ডিলার</td>
+                            <td class="d">নিম্ন</td>
+                            <td class="d">২</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">৫৪</td>
+                            <td class="d">পোল্ট্রি/ডেইরি/ফিশারিজ ফার্ম</td>
+                            <td class="d">নিম্ন</td>
+                            <td class="d">২</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td class="d">৫৫</td>
+                            <td class="d">অ্যাগ্রো/রাইস মিল/পানীয় ব্যবসা</td>
+                            <td class="d">নিম্ন</td>
+                            <td class="d">২</td>
+                        </tr>
+
+
+                        <tr>
+                            <td class="d">৫৬</td>
+                            <td class="d">উৎপাদন ব্যবসা</td>
+                            <td class="d">নিম্ন</td>
+                            <td class="d">২</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">৫৭</td>
+                            <td class="d">শপ (রিটেইল বিজনেস)</td>
+                            <td class="d">নিম্ন</td>
+                            <td class="d">২</td>
+                        </tr>
+
+                        <tr>
+                            <td class="d">৫৮</td>
+                            <td class="d">অন্যান্য (নির্দিষ্ট করে লিখতে হবে) ১-৫</td>
+                            <td class="d"></td>
+                            <td class="d"></td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="last-table" style="margin-top: 10px">
+            <table class="b1">
+
+                <thead>
+                    <tr>
+                        <th style="width: 27px; height: 24px;">ক্রমিক নং</th>
+                        <th style="width: 101px; height: 24px;">যাচাইয়ের ধরন</th>
+                        <th style="width: 236px; height: 24px;">যাচাইয়ের সূচক</th>
+                        <th style="width: 66px; height: 24px;">ঝুঁকির মাত্রা</th>
+                        <th style="width: 86px; height: 24px;">ঝুঁকির মান</th>
+                        <th style="width: 27px; height: 24px;">স্কোর</th>
+                    </tr>
+    
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align: center">১</td>
+                        <td style=" padding: 0px 3px;">ব্যবসার ধরন</td>
+                        <td style=" padding: 0px 3px;">উপরের তালিকাই উল্লেখিত অনুযায়ী</td>
+                        <td style=" padding: 0px 3px;">নিম্ন/ মাঝারি/ উচ্চ</td>
+                        <td style=" padding: 0px 3px;">২/৩/৪/৫</td>
+                        <td style=" padding: 0px 3px;"></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center">২</td>
+                        <td style=" padding: 0px 3px;">প্রতিষ্ঠানের নেট সম্পদ</td>
+                        <td style=" padding: 0px 3px;">১-৫০ লক্ষ/ ৫০ লক্ষ – ২ কোটি / ২ কোটির অধিক</td>
+                        <td style=" padding: 0px 3px;">নিম্ন/ মাঝারি/ উচ্চ</td>
+                        <td style=" padding: 0px 3px;">০/১/৩</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center">৩</td>
+                        <td style=" padding: 0px 3px;">একাউন্ট খোলার ধরন</td>
+                        <td style=" padding: 0px 3px;">কি একাউন্ট ম্যানেজার / এজেন্সি / অন্যান্য</td>
+                        <td style=" padding: 0px 3px;">নিম্ন/ মাঝারি/ উচ্চ</td>
+                        <td style=" padding: 0px 3px;">০/১/৩</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center">৪</td>
+                        <td style=" padding: 0px 3px;">সম্ভব্য মাসিক লেনদেনের পরিমান</td>
+                        <td style=" padding: 0px 3px;">০-১০ লক্ষ/ ১০-৫০ লক্ষ / ৫০ লক্ষের অধিক</td>
+                        <td style=" padding: 0px 3px;">নিম্ন/ মাঝারি/ উচ্চ</td>
+                        <td style=" padding: 0px 3px;">০/১/৩</td>
+                        <td></td>
+                    </tr>
+
+                    <tr>
+                        <td style="text-align: center">৫</td>
+                        <td style=" padding: 0px 3px;">সম্ভব্য মাসিক লেনদেনের সংখ্যা</td>
+                        <td style=" padding: 0px 3px;">০-১০০/ ১০১-২৫০/ > ২৫০</td>
+                        <td style=" padding: 0px 3px;">নিম্ন/ মাঝারি/ উচ্চ</td>
+                        <td style=" padding: 0px 3px;">০/১/৩</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; border-right: 1px solid  #fff;"></td>
+                        <td style="border-right: 1px solid #fff"></td>
+                        <td style=" padding: 0px 3px">সার্বিক ঝুঁকি-মাত্রার যোগফল</td>
+                        <td style=" padding: 0px 3px;">নিম্ন/ উচ্চ</td>
+                        <td style=" padding: 0px 3px;">১৪- এর কম/ ১৪ বা তদুর্ধ্ব</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+              
+                
+            </table>
+        </div>
+
+        
+    </div>
+</body>
+
+</html>
